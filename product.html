@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cind-ecom</title>
+ <!-- <link rel="icon" href="images/sokobar2.png" type="image/icon type">  -->
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet"> 
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+<style>
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none; 
+}
+nav ul li{
+  display: inline-block;
+  margin: 20px;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+p{
+  color: #555;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img{
+  max-width: 100%;
+  padding: 50px ;
+}
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #563434;
+}
+.header{
+  background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+  margin-top: 70px;
+}
+.categories{
+  margin: 70px 0;
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img{
+  width: 100%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+.col-4 img{
+  width: 100%;
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.title::after{
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h4{
+  color: #555;
+  font-weight: normal;
+}
+.col-4 P{
+  font-size: 14px;
+}
+.rating .fa{
+  color: #ff523b;
+}
+.col-4:hover{
+  transform: translateY(-5px);
+}
+
+
+/*---------------- testimonial -------------------*/
+.testimonial{
+  padding-top: 100px;
+}
+.testimonial .col-3{
+  text-align: center;
+  padding: 40px 20px; 
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+  font-size: 34px;
+  color: #ff523b;
+}
+.col-3 p{
+  font-size: 12px;
+  margin: 12px 0;
+  color:#777;
+}
+.testimonial .col-3 h3{
+  font-weight: 600;
+  color: #555;
+  font-size: 16px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <h2> <span>G</span>
+               <span>U</span>
+                <span>D</span>
+              <span>I</span>  </h2>
+       
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>"Looking for something?<br> Gude is your guide !</h1>
+          <p>"Welcome to the Gude family! We're passionate about bringing you quality products and making your shopping experience a breeze. Enjoy your visit!" <br> <i>- Cindy</i>
+          </p>
+          <a href="" class="btn">Product &#8594;</a>
+        </div>
+        <div class="col-2">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="./product-Image/download (2).jpeg">
+        </div>
+        <div class="col-3">
+          <img src="./product-Image/download (4).jpeg">
+        </div>
+        <div class="col-3">
+          <img src="./product-Image/download (5).jpeg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="./product-Image/download (6).jpeg">
+        </div>
+        <div class="col-3">
+          <img src="./product-Image/download.jpeg">
+        </div>
+        <div class="col-3">
+          <img src="./product-Image/bcdf1a7c-7e4d-471f-adc3-31e9da908131.webp">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="./product-Image/images (1).jpeg">
+        </div>
+        <div class="col-3">
+          <img src="./product-Image/images (2).jpeg">
+        </div>
+        <div class="col-3">
+          <img src="./product-Image/images.jpeg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="./product-Image/download (2).jpeg">
+        </div>
+        <div class="col-3">
+          <img src="./product-Image/download (4).jpeg">
+        </div>
+        <div class="col-3">
+          <img src="./product-Image/download (5).jpeg">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+<!------------------ testimonia---------->
+  <div class="testimonial">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Gudi provides the best and most affordable product on the market.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <img src="./product-Image/862a1daa-7bc2-4da1-926d-e30df9b40eec.jpeg"  >
+          <h3>Cindy</h3>
+        </div>
+        
+
+</body>
+</html>
